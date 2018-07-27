@@ -477,7 +477,9 @@ textarea,
   position: absolute; }
 
 body {
-  font-family: 'Lato', sans-serif;
+  width: 100%;
+  height: 100%;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
   color: #4a4a4a;
   font-size: 1rem;
   font-weight: 300;
@@ -488,11 +490,35 @@ h1 {
   font-size: 3rem; }
 
 p,
+span,
 h1,
+h3,
 i {
   color: white; }
 
+i:hover {
+  color: lightgreen; }
+
+a,
+a:active,
+a:visited {
+  text-decoration: none;
+  font-style: italic;
+  color: inherit; }
+
+a:hover {
+  color: lightgreen; }
+
 /* Utils for layout */
+.ml-10 {
+  margin-left: 10px; }
+
+.ml-20 {
+  margin-left: 20px; }
+
+.mt-10 {
+  margin-top: 10px; }
+
 .mt-50 {
   margin-top: 50px; }
 
@@ -523,6 +549,14 @@ html {
     .background {
       background-image: url("../../public/img/_L0A1356.jpg"); } }
   @media screen and (max-width: 800px) and (max-height: 640px) {
+    .background {
+      background-image: url("../../public/img/_L0A1356.jpg");
+      height: 100%; } }
+  @media screen and (max-width: 360px) and (max-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+    .background {
+      background-image: url("../../public/img/_L0A1356.jpg");
+      height: 100vh; } }
+  @media only screen and (min-device-width: 410px) and (max-device-width: 825px) and (-webkit-device-pixel-ratio: 3.5) and (orientation: landscape) {
     .background {
       background-image: url("../../public/img/_L0A1356.jpg");
       height: 100%; } }
