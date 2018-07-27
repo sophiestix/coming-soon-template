@@ -542,27 +542,28 @@ html {
   @media screen and (min-height: 720px) {
     .background {
       background-image: url("../../public/img/L0A1356.jpg"); } }
-  @media screen and (min-width: 900px) {
-    .background {
-      background-image: url("../../public/img/L0A1356.jpg"); } }
-  @media screen and (max-width: 900px) and (max-height: 720px) {
+  @media screen and (min-width: 825px) {
     .background {
       background-image: url("../../public/img/L0A1356.jpg"); } }
   @media screen and (max-width: 800px) and (max-height: 640px) {
     .background {
-      background-image: url("../../public/img/L0A1356.jpg");
+      background-image: url("../../public/img/L0A1356_small.jpg");
       height: 100%; } }
   @media screen and (max-width: 360px) and (max-height: 640px) and (-webkit-device-pixel-ratio: 3) {
     .background {
-      background-image: url("../../public/img/L0A1356.jpg");
+      background-image: url("../../public/img/L0A1356_small.jpg");
       height: 100vh; } }
   @media only screen and (min-device-width: 410px) and (max-device-width: 825px) and (-webkit-device-pixel-ratio: 3.5) and (orientation: landscape) {
     .background {
-      background-image: url("../../public/img/L0A1356.jpg");
+      background-image: url("../../public/img/L0A1356_small.jpg");
       height: 100%; } }
   @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
     .background {
       background-image: url("../../public/img/L0A1356.jpg");
+      height: 100%; } }
+  @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+    .background {
+      background-image: url("../../public/img/L0A1356_small.jpg");
       height: 100%; } }
 
 .card {
