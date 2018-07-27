@@ -12,26 +12,27 @@ html {
 .background {
     width: auto;
     height: 100vh;
-    background-image: url("http://vonhallings.dk/public/img/_L0A1356_small.JPG");
+    // background-image: url("../../public/img/L0A1356_small.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     padding: 10%;
     
     @media screen and (min-height: 720px) {
-        background-image: url("http://vonhallings.dk/public/img/_L0A1356.JPG");
+        // background-image: url("//public/img/_L0A1356.jpg");
     }
 
     @media screen and (min-width: 900px) {
-        background-image: url("http://vonhallings.dk/public/img/_L0A1356.JPG");
+        background-image: url("../../public/img/L0A1356.jpg");
+        // background-image: image-url($path, $only-path, $cache-buster)
     }
 
     @media screen and (max-width: 900px) and (max-height: 720px) {
-        background-image: url("http://vonhallings.dk/public/img/_L0A1356.JPG");
+        // background-image: url("../../public/img/L0A1356.jpg");
     }
 
     @media screen and (max-width: 800px) and (max-height: 640px) {
-        background-image: url("http://vonhallings.dk/public/img/_L0A1356.JPG");
+        // background-image: url("../../public/img/L0A1356.jpg");
         height: 100%;
     }
 
@@ -39,7 +40,7 @@ html {
         and (max-width: 360px) 
         and (max-height: 640px) 
         and (-webkit-device-pixel-ratio: 3) {
-            background-image: url("http://vonhallings.dk/public/img/_L0A1356.JPG");
+            // background-image: url("../../public/img/L0A1356.jpg");
             height: 100vh;
         }
 
@@ -48,7 +49,7 @@ html {
         and (max-device-width: 825px) 
         and (-webkit-device-pixel-ratio: 3.5) 
         and (orientation: landscape) {
-            background-image: url("http://vonhallings.dk/public/img/_L0A1356.JPG");
+            // background-image: url("../../public/img/L0A1356.jpg");
             height: 100%;
         }
 
@@ -57,7 +58,7 @@ html {
         and (max-device-width: 812px) 
         and (-webkit-device-pixel-ratio: 3) 
         and (orientation: landscape) {
-            background-image: url("http://vonhallings.dk/public/img/_L0A1356.JPG");
+            // background-image: url("../../public/img/L0A1356.jpg");
             height: 100%;
         }
 }
