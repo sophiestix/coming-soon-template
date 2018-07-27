@@ -541,7 +541,7 @@ html {
   padding: 10%; }
   @media screen and (min-height: 720px) {
     .background {
-      background-image: url("//public/img/_L0A1356.jpg"); } }
+      background-image: url("../../public/img/L0A1356.jpg"); } }
   @media screen and (min-width: 900px) {
     .background {
       background-image: url("../../public/img/L0A1356.jpg"); } }

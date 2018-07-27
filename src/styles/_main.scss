@@ -19,22 +19,27 @@ html {
     padding: 10%;
     
     @media screen and (min-height: 720px) {
-        background-image: url("//public/img/_L0A1356.jpg");
+        background-image: url("../../public/img/L0A1356.jpg");
     }
 
     @media screen and (min-width: 900px) {
         background-image: url("../../public/img/L0A1356.jpg");
     }
 
-    @media screen and (max-width: 900px) and (max-height: 720px) {
-        background-image: url("../../public/img/L0A1356.jpg");
-    }
+    @media screen 
+        and (max-width: 900px) 
+        and (max-height: 720px) {
+            background-image: url("../../public/img/L0A1356.jpg");
+        }
 
-    @media screen and (max-width: 800px) and (max-height: 640px) {
-        background-image: url("../../public/img/L0A1356.jpg");
-        height: 100%;
-    }
+    @media screen 
+        and (max-width: 800px) 
+        and (max-height: 640px) {
+            background-image: url("../../public/img/L0A1356.jpg");
+            height: 100%;
+        }
 
+    // Galaxy S5
     @media screen 
         and (max-width: 360px) 
         and (max-height: 640px) 
@@ -43,6 +48,7 @@ html {
             height: 100vh;
         }
 
+    // Pixel 2 XL
     @media only screen 
         and (min-device-width: 410px) 
         and (max-device-width: 825px) 
@@ -52,6 +58,7 @@ html {
             height: 100%;
         }
 
+    // Iphone X
     @media only screen 
         and (min-device-width: 375px) 
         and (max-device-width: 812px) 
@@ -60,6 +67,13 @@ html {
             background-image: url("../../public/img/L0A1356.jpg");
             height: 100%;
         }
+    // @media only screen 
+    //     and (min-device-width : 375px) 
+    //     and (max-device-width : 812px)
+    //     and (-webkit-device-pixel-ratio : 3) {
+    //         background-image: url("../../public/img/L0A1356.jpg");
+    //         height: 100vh;
+    //     }
 }
 
 .card {
